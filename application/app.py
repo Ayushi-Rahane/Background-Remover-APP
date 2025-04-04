@@ -14,6 +14,7 @@ fs = gridfs.GridFS(mongo.db)
 
 @app.route('/', methods=['GET','POST'])
 def home():
+    output_image_data = None
     if request.method == 'POST':
         # Get the file from the form
         file = request.files['file']

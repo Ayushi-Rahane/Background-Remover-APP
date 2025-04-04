@@ -49,6 +49,13 @@
 
   </form>
 </div>
+{% if output_image_data %}
+  <div class="result-section mt-4 text-center">
+    <h2>Result:</h2>
+    <img src="{{ output_image_data }}" alt="Processed Image" class="img-fluid mt-2" />
+  </div>
+{% endif %}
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu" crossorigin="anonymous"></script>
   </body>

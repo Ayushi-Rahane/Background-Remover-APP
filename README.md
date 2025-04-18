@@ -8,7 +8,8 @@ A simple Flask-based web application that allows users to **upload an image** an
 
 ![Screenshot](readme/ss1.png)
 
-![Screenshot](readme/ss1.png)
+![Screenshot](readme/ss2.png)
+
 
 ---
 
